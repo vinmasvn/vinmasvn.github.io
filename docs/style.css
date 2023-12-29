@@ -1,0 +1,124 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--theme-background);
+  font-family: 'Merriweather', serif;
+  line-height: var(--uiConfig-lineSpacingEm);
+  color: var(--theme-text);
+  word-wrap: break-word;
+}
+header {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #51a0d5;
+  text-decoration: inherit;
+}
+.article_avatar {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.article_title {
+  font-size: 24px;
+  line-height: 1.3em;
+  font-weight: 700;
+  padding: 0px 16px;
+}
+.article_summary {
+  color: var(--theme-text);
+  font-size: var(--uiConfig-textSizePx);
+  line-height: 1.4em;
+  margin-top: 8px;
+  font-family: Muli;
+  font-weight: 700;
+  padding: 0px 16px;
+}
+.article_content {
+  padding: 16px;
+  font-size: var(--uiConfig-textSizePx);
+}
+.notification {
+  background: var(--theme-notificationBackground);
+  border: 1px dashed var(--theme-text);
+  padding: 12px;
+}
+.quote {
+  border: 1px solid var(--theme-quoteBorder);
+  padding: 12px;
+  padding-bottom: 0px;
+  margin-bottom: 16px;
+  margin-top: 36px;
+  font-style: italic;
+  font-family: Roboto;
+}
+.quote:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\\f10d';
+  display: block;
+  font-style: normal;
+  color: var(--theme-quoteBorder);
+  margin-top: 10px;
+  position: absolute;
+  font-size: 25px;
+  transform: translate(-50%, -150%);
+}
+.quote .photo {
+  float: right;
+  width: 50%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: auto;
+}
+.fig {
+  font-size: var(--uiConfig-textSizePx);
+  color: #c00;
+  font-style: italic;
+  text-align: center;
+}
+.events {
+  padding-inline-start: 8px;
+  list-style-type: none;
+}
+.event-content {
+  border-left: 1px solid #ed2324;
+  padding-left: 8px;
+}
+.live-time {
+  color: #c00;
+}
+p {
+  margin-left: 0px !important;
+}
+img {
+  left: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+#authorDetails:hover {
+  text-decoration: underline;
+}
+video {
+  display: unset !important;
+}
+.article__related {
+  display: none;
+}
+
+.caption {
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.default_avatar {
+  background: url('https://static-cms-viettimes.zadn.vn/2020/web/styles/img/user_avatar.png');
+}
+
