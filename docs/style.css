@@ -16,7 +16,12 @@ a {
   text-decoration: inherit;
 }
 
-
+.notebox {
+    border: 1px dashed #333;
+    background: #fcedd0;
+    padding: 20px 23px;
+    color: #343a40;
+}
 
 .article_avatar {
   position: relative;
